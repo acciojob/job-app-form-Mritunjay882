@@ -8,46 +8,41 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
-    <div>
-        <label for="name">Name*</label>
-        <input type="text" required id="name" >
-    </div>
-    <div>
-        <label for="email">Email*</label>
-        <input type="email"  id="email" required>
-    </div>
-    <div>
-        <label>Gender*</label>
-        <input type="radio" value="male" name="gender">
-        <input type="radio" name="gender" required>
-    </div>
-    <div>
+ <form method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" required>Male
+        <input type="radio" id="gender" name="gender" required>Female
+        <br>
         <label for="laptop">Laptop Brands</label>
-        <select id="laptop">
-            <option value="">Apple</option>
-            <option value="">Asus</option>
-            <option value="">HP</option>
+
+        <select id="laptop" required>
+            <option name="laptop">Apple</option>
+            <option name="laptop">Asus</option>
+            <option name="laptop">HP</option>
         </select>
-    </div>
-    <div>
-        <label for="age">Age*</label>
-        <input type="number" id="age" required>
-    </div>
-    <div>
-        <label for="dob">DOB*</label>
+        <label for="age">Age</label>
+        <input type="text" id="age" required>
+        <br>
+        <label for="dob">DOB</label>
         <input type="date" id="dob" required>
-    </div>
-    <div>
-        <label for="password">Password*</label>
+        <br>
+        <label for="password">Password</label>
         <input type="password" id="password" required>
-    </div>
-		<label>portfolio</label>
+        <br>
+        <label for="portfolio">Portfolio Link</label>
         <input type="url" id="portfolio">
-        <button type="submit">submit</button>
-		
-    
- </form>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
 
 
 
